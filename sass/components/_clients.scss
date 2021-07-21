@@ -1,0 +1,32 @@
+.clients {
+  width: 1200px;
+  height: 184px;
+  padding: 94px 0;
+}
+.clients-margin {
+  margin-top: 0;
+}
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-list__logo--icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  padding: 16px 32px;
+}
+
+.client-list__logo--icon:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
